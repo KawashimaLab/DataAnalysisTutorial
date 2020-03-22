@@ -13,7 +13,7 @@ In this class, we use Matlab as a programming environment. We use the JHU_demo.m
 
 In this experiment, the fish changes its swim pattern in response to various visual stimuli presented in the environment. We analyze how activities of individual neurons are tuned to different behavioral variables (swim pattern, visual stimuli) and how they are distributed across the brain depending on their tuning.
 
-Below is an except of the demo code ("JHU_demo.mlx"). You can find more detailed explanation in the code.
+Below is an except of the demo code. You can find more detailed explanation in the code.
 
 ### Data analysis
 
