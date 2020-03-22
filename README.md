@@ -19,7 +19,7 @@ Below is an except of the demo code. You can find more detailed explanation in t
 
 First, we load the data of behavioral variables, activities of neurons, and positions of neurons.
 
-This data contains data of 6000 neurons which are selected from 100,000 neurons in the original imaging dataset. We use this smaller data for convenience, but if you are interested you can load "neural_data.mat" instead to analyze all imaged neurons. 
+This data contains data of 6000 neurons which are selected from 100,000 neurons in the original imaging dataset. We use this smaller data for convenience, but if you are interested you can load "" instead to analyze all imaged neurons. 
 
 Then we plot the swim power of fish (Top) and calcium activities of 5 neurons (Bottom) during the experiment.
    
