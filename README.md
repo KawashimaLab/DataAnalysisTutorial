@@ -21,41 +21,15 @@ Below is an except of the demo code ("JHU_demo.mlx"). You can find more detailed
 
 First, we load the data of behavioral variables, activities of neurons, and positions of neurons.
 
-    root_dir='/Users/XXXXX/XXXX/data/';
-
-    load([root_dir,'behavioral_variables.mat']);
-    load([root_dir,'selected_neural_data.mat']);
-
-This "selected_neural_data.mat" contains data of 6000 neurons which are selected from 100,000 neurons in the original imaging dataset. We use this smaller data for convenience, but if you are interested you can load "neural_data.mat" instead to analyze all imaged neurons. 
+This data contains data of 6000 neurons which are selected from 100,000 neurons in the original imaging dataset. We use this smaller data for convenience, but if you are interested you can load "neural_data.mat" instead to analyze all imaged neurons. 
 
 Then we plot the swim power of fish (Top) and calcium activities of 5 neurons (Bottom) during the experiment.
-
-    figure(1)
-    plot(swim_power);
-    xlabel('time (s)')
-    
-    figure(2)
-    plot(neural_response_matrix(1:5,:)');
-    xlabel('time (s)')
    
 <img src="./pics/swim_power.png" width="960">  
 <img src="./pics/neural_response.png" width="960">
 
 
 We show 3D volume of the imaged brain (Left) or location of selected cells (Right), using projection from the top and the side. Part of the code for these plot is not shown here.
-
-    % Top projection view
-    Volume_XY=sum(Volume,3);
-
-    % Side projection view
-    Volume_XZ=sum(Volume,2);
-
-    % Show top and side views
-    figure(3)
-
-    subplot(1,2,1);imagesc(Volume_XY);title('Top view');
-
-    subplot(1,2,2);imagesc(squeeze(Volume_XZ));title('Side view');
     
 
 | ![imaged_volume](./pics/imaged_volume.png) | ![cell_location](./pics/cell_location.png)  |
