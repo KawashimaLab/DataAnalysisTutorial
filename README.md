@@ -7,7 +7,7 @@ The goal of this class is to learn the basics of data analysis for large-scale c
 <img src="./pics/maxresdefault.jpg" width="384">
 
 
-In this class, we use Matlab as a programming environment. We use the JHU_demo.mlx for demonstration and exercise of data analyses. The imaging dataset can be downloaded from thd dropbox. 
+In this class, we use Python as a programming environment. The imaging dataset can be downloaded from thd dropbox (link). 
 
 In this experiment, the fish changes its swim pattern in response to various visual stimuli presented in the environment. We analyze how activities of individual neurons are tuned to different behavioral variables (swim pattern, visual stimuli) and how they are distributed across the brain depending on their tuning.
 
