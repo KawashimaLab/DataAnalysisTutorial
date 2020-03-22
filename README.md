@@ -1,15 +1,13 @@
-## JHU_Bootcamp: Ahrenslab
+## Bootcamp: KawashimaLab
 
-This is a github repository for the JHU bootcamp class hosted by Ahrens lab on August 22nd, 2017 in HHMI Janelia. 
-
-Tutors: Takashi Kawashima and Mika Rubinov
+This is a github repository for data analysis tutorial in Kawashima lab, Weizmann Institute of Science. 
 
 The goal of this class is to learn the basics of data analysis for large-scale calcium imaging experiments. In our experiment, calcium activities of ~100,000 neurons are simuntaneously recorded in the brain of larval zebrafish, which is behaving in a virtual reality environment[ref 1-3]. 
 
 <img src="./pics/maxresdefault.jpg" width="384">
 
 
-In this class, we use Matlab as a programming environment. We use the JHU_demo.mlx for demonstration and exercise of data analyses. The imaging dataset can be downloaded from thd dropbox (https://www.dropbox.com/sh/n6f2y69s3l985bp/AADXv21TYRkZJI5U2AnAbFP5a?dl=0). 
+In this class, we use Matlab as a programming environment. We use the JHU_demo.mlx for demonstration and exercise of data analyses. The imaging dataset can be downloaded from thd dropbox. 
 
 In this experiment, the fish changes its swim pattern in response to various visual stimuli presented in the environment. We analyze how activities of individual neurons are tuned to different behavioral variables (swim pattern, visual stimuli) and how they are distributed across the brain depending on their tuning.
 
