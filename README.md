@@ -1,4 +1,4 @@
-## Bootcamp: KawashimaLab
+## Data analysis tutorial in Python: KawashimaLab
 
 This is a github repository for data analysis tutorial in Kawashima lab, Weizmann Institute of Science. 
 
